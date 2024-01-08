@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Veri setini yükleme
-df = pd.read_csv('simge.csv')  # Veri seti dosya adınıza göre değiştirilmelidir.
+df = pd.read_csv('simge.csv')  
 
 # Eksik değerleri kontrol etme 
 print(df.isnull().sum()) 
