@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, f1_score
 import matplotlib.pyplot as plt
 
 # Veri setini yükleme
-df = pd.read_csv('simge.csv')  # Veri seti dosya adınıza göre değiştirilmelidir.
+df = pd.read_csv('simge.csv')  
 
 # Veri setini inceleme
 print(df['age_group'].value_counts())
